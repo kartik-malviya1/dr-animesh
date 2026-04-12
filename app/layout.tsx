@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     "Cosmetic Dermatology",
     "Dermatologist near Aashima Mall",
   ],
+  icons: {
+    icon: "/logo.png",
+  },
   openGraph: {
     title: "The Derma Clinic | Dr. Vivek Choudhary — Dermatologist in Bhopal",
     description:
@@ -41,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "The Derma Clinic",
     images: [
       {
-        url: "/og-image.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
       },
