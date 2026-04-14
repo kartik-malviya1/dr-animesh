@@ -22,8 +22,8 @@ export function Navigation({ menuOpen, toggleMenu }: NavigationProps) {
   return (
     <nav id="nav" className={scrolled ? "scrolled" : ""}>
       <Link href="#" className="nav-logo">
-        <span className="nav-logo-name">The Derma Clinic</span>
-        <span className="nav-logo-sub">by Dr. Vivek Choudhary</span>
+        <span className="nav-logo-name">The Rejuva Clinic</span>
+        <span className="nav-logo-sub">by Dr. Animesh Saxena</span>
       </Link>
       <ul className="nav-links">
         <li>
@@ -45,7 +45,7 @@ export function Navigation({ menuOpen, toggleMenu }: NavigationProps) {
           <Link href="#location">Find Us</Link>
         </li>
         <li>
-          <Link href="tel:+91" className="nav-cta">
+          <Link href="tel:+919926923745" className="nav-cta">
             Book Consultation
           </Link>
         </li>

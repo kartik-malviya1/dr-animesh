@@ -11,7 +11,7 @@ export function Hero() {
       <div className="hero-content">
         <div className="hero-eyebrow backdrop-blur-2xl border border-amber-50/10 bg-[gold]/5 text-sm ">
           <div className="hero-eyebrow-pulse"></div>
-          Hoshangabad Road · Bhopal
+          Padmanabh Nagar · Bhopal
         </div>
         <h1 style={{ fontWeight: "400" }}>
           Where Skin Finds
@@ -20,11 +20,11 @@ export function Hero() {
         </h1>
         <p className="hero-sub">
           {
-            "Bhopal's premier destination for advanced clinical, aesthetic, and laser dermatology. Expert care for your skin, hair, and nails."
+            "Bhopal's trusted destination for expert dermatology, hair transplant, and cosmetic skin treatments. Personalized care with proven results."
           }
         </p>
         <div className="hero-actions">
-          <Link href="tel:+91" className="btn-glass btn-glass-solid">
+          <Link href="tel:+919926923745" className="btn-glass btn-glass-solid">
             Book Consultation
           </Link>
           <Link href="#services" className="btn-glass">
@@ -36,7 +36,7 @@ export function Hero() {
         <div className="md:col-span-3 grid grid-cols-3 gap-4 mt-12">
           <div className="flex flex-col items-center px-4">
             <div className="font-serif text-3xl md:text-4xl text-gold mb-1">
-              12+
+              10+
             </div>
             <div className="text-[9px] uppercase tracking-widest text-white/40 font-medium">
               Years Expert
@@ -53,7 +53,7 @@ export function Hero() {
           <div className="flex flex-col items-center px-4">
             <div className="flex items-center gap-1.5 mb-1">
               <span className="font-serif text-3xl md:text-4xl text-gold">
-                4.9
+                4.8
               </span>
               <Star
                 size={20}

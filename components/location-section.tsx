@@ -18,7 +18,7 @@ export function LocationSection() {
         <h2 className="s-title w">
           Find us in
           <br />
-          <em>Hoshangabad Road, Bhopal</em>
+          <em>Padmanabh Nagar, Bhopal</em>
         </h2>
       </div>
       <div className="loc-layout">
@@ -26,34 +26,34 @@ export function LocationSection() {
           <div className="loc-block">
             <h5>Address</h5>
             <p>
-              Shop No. 3107, First Floor, C-Block, Surendra Landmark
+              C-6, First Floor, Padmanabh Nagar
               <br />
-              Above Vijay Super Market, Near Aashima Mall
+              Above Maruti Showroom, Opp. Ondoor Store
               <br />
-              Hoshangabad Road, Bhopal, MP 462004
+              Near Prabhat Square, Bhopal, MP
             </p>
           </div>
           <div className="loc-block">
-            <h5>Our Specialists</h5>
+            <h5>Our Specialist</h5>
             <p>
-              Dr. Vivek Choudhary — MBBS, MD (Dermatology)
+              Dr. Animesh Saxena — MBBS, MD (Dermatology)
               <br />
-              Consultant Dermatologist, Laser & Cosmetic Surgeon
+              Dermatologist · Dermatosurgeon · Hair Transplant Specialist
             </p>
           </div>
           <div className="loc-block">
-            <h5>Consultations</h5>
+            <h5>Clinic Hours</h5>
             <p>
-              In-Clinic Consultations Available
+              Mon – Sat: 3:00 PM – 7:00/8:00 PM
               <br />
-              Appointments Preferred · Walk-ins Welcome
+              Sunday: Closed · Fee: ₹400
             </p>
           </div>
           <div className="loc-block">
             <h5>Get Directions</h5>
             <p>
               <Link
-                href="https://maps.google.com/?q=The+Derma+Clinic+Dr+Vivek+Choudhary+Bhopal"
+                href="https://maps.google.com/?q=Rejuva+clinic+Dr+Animesh+Saxena+Bhopal"
                 target="_blank"
               >
                 {"Open in Google Maps →"}
@@ -63,7 +63,7 @@ export function LocationSection() {
         </div>
         <div className="loc-img reveal reveal-d2" ref={revealRef3}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.715434270733!2d77.45432577536236!3d23.180583879063185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4357525730fd%3A0xad4b9e10c574247a!2sDr.%20Vivek%20Choudhary-%20The%20Derma%20Clinic%7C%20Dermatologist%20In%20Bhopal%7CLaser%7CSkin%7CHair%7CAcne%7CTreatment%7CBhopal!5e0!3m2!1sen!2sin!4v1775993703821!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.6727117367277!2d77.431153!3d23.251289399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c69d67c09985d%3A0x6d5f8953ff35d7f1!2sDr.Animesh%20Saxena!5e1!3m2!1sen!2sin!4v1776196946408!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0, borderRadius: "24px" }}

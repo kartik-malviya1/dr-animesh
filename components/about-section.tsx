@@ -13,10 +13,10 @@ export function AboutSection() {
           Expert care. <em>Lasting results.</em>
         </h2>
         <p className="s-desc">
-          The Derma Clinic is led by Dr. Vivek Choudhary, a highly experienced
-          and dedicated dermatologist combining clinical excellence with
-          advanced aesthetic treatments to help you look and feel your absolute
-          best.
+          Rejuva Clinic is led by Dr. Animesh Saxena, a highly experienced
+          Dermatologist, Dermatosurgeon, and Hair Transplant Specialist
+          combining clinical excellence with personalized care to help you look
+          and feel your absolute best.
         </p>
       </div>
 
@@ -25,11 +25,11 @@ export function AboutSection() {
         <div className="about-portrait-side">
           <div className="badge-rating">
             <div className="stars">★★★★★</div>
-            <div className="count">940+ REVIEWS</div>
+            <div className="count">400+ REVIEWS</div>
           </div>
           <img
-            src="/drvivek.png"
-            alt="Dr. Vivek Choudhary"
+            src="/drsaxena.png"
+            alt="Dr. Animesh Saxena"
             className="about-img-main"
           />
           <div className="badge-exp">
@@ -46,39 +46,48 @@ export function AboutSection() {
             <em>Can Trust</em>
           </h2>
           <p className="s-desc" style={{ maxWidth: "100%" }}>
-            With over 12 years of clinical experience, Dr. Vivek Choudhary
-            founded The Derma Clinic to redefine skin treatment in Bhopal. As an
-            ex-Assistant Professor, his academic background ensures the highest
-            standard of care in medical, aesthetic, and laser dermatology.
+            Dr. Animesh Saxena is a leading dermatologist in Bhopal specializing
+            in skin, hair, and cosmetic treatments. With over a decade of
+            experience, he offers advanced solutions for acne, pigmentation,
+            hair fall, and hair transplant procedures — ensuring safe,
+            effective, and personalized care for every patient.
           </p>
 
           <div className="quals-v2">
             <div className="qual-v2-item">
               <div className="qual-bullet"></div>
               <div className="qual-info">
-                <h5>MBBS & MD — Dermatology, Venereology & Leprosy</h5>
-                <p>Expert medical evaluation and specialized care</p>
+                <h5>MBBS — Barkatullah University, Bhopal (2011)</h5>
+                <p>Strong medical foundation from a premier university</p>
               </div>
             </div>
             <div className="qual-v2-item">
               <div className="qual-bullet"></div>
               <div className="qual-info">
-                <h5>Ex-Assistant Professor — Chirayu Medical College</h5>
-                <p>Academic excellence & over a decade of clinical practice</p>
+                <h5>
+                  MD (Dermatology, Venereology & Leprosy) — R.D. Gardi Medical
+                  College, Ujjain (2015)
+                </h5>
+                <p>
+                  Specialized postgraduate training in dermatology & venereology
+                </p>
               </div>
             </div>
             <div className="qual-v2-item">
               <div className="qual-bullet"></div>
               <div className="qual-info">
-                <h5>Consultant Dermatologist & Laser Surgeon</h5>
-                <p>Specialized in advanced aesthetic and laser procedures</p>
+                <h5>Dermatosurgeon & Hair Transplant Specialist</h5>
+                <p>
+                  Expert in FUE hair transplant, scar revision & cosmetic
+                  procedures
+                </p>
               </div>
             </div>
           </div>
 
           <div className="about-actions">
             <a
-              href="tel:+91"
+              href="tel:+919926923745"
               className="nav-cta"
               style={{ position: "static", padding: "14px 32px" }}
             >
@@ -97,19 +106,19 @@ export function AboutSection() {
         style={{ display: "flex", justifyContent: "center" }}
       >
         <DoctorCard
-          image="/drvivek.png"
-          badge="Consultant Dermatologist & Laser Surgeon"
-          name="Dr. Vivek Choudhary"
-          role="MBBS · MD (Dermatology)"
-          description="With over 12 years of clinical experience, Dr. Vivek Choudhary offers a deeply empathetic and evidence-first approach to dermatology. As an ex-Assistant Professor, his academic background ensures the highest standard of care in medical and aesthetic dermatology."
+          image="/drsaxena.png"
+          badge="Dermatologist & Hair Transplant Specialist"
+          name="Dr. Animesh Saxena"
+          role="MBBS · MD (Dermatology, Venereology & Leprosy)"
+          description="Dr. Animesh Saxena is a trusted dermatologist in Bhopal with over 12 years of clinical experience. Known for his patient-friendly approach, accurate diagnosis, and long-term solutions for skin, hair, and cosmetic concerns of all age groups."
           qualifications={[
-            "MBBS (2013), MD in Dermatology, Venereology & Leprosy (2019)",
-            "Ex-Assistant Professor, Chirayu Medical College & Hospital",
-            "Expertise in Clinical, Aesthetic & Laser Dermatology",
+            "MBBS — Barkatullah University, Bhopal (2011)",
+            "MD in Dermatology, Venereology & Leprosy — R.D. Gardi Medical College, Ujjain (2015)",
+            "Expertise in Hair Transplant (FUE), Dermatosurgery & Cosmetology",
             "12+ Years of Clinical Practice",
           ]}
           pubTitle="Specialisations"
-          pubText="Acne Management · Laser Hair Removal · Anti-Aging Treatments · Pigmentation · Scalp and Hair Restoration · Clinical Dermatology"
+          pubText="Acne & Scars · Pigmentation · Hair Transplant (FUE) · PRP Therapy · Keloids · Eczema · Psoriasis · Dermatovenereology"
         />
       </div>
     </section>

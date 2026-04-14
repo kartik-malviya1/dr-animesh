@@ -19,11 +19,10 @@ const quickLinks = [
 ]
 
 const contactLinks = [
-  { label: "Instagram", href: "https://www.instagram.com/drvivekchoudharydermatologist/" },
-  { label: "Facebook", href: "https://www.facebook.com/drvivekchoudharydermatologist/" },
-  { label: "Eka.care", href: "https://www.eka.care/doctor/dr-vivek-choudhary-dermatologist-bhopal" },
-  { label: "Justdial", href: "https://www.justdial.com/Bhopal/The-Derma-Clinic-Skin-Hair-Cosmetic-Laser-Centre-Dr-Vivek-Choudhary-Md-Near-Aashima-Mall-Above-Vijay-Super-Market-Hoshangabad-Road/0755PX755-X755-210721101032-I3L3_BZDET" },
-  { label: "Google Maps", href: "https://maps.google.com/?q=The+Derma+Clinic+Dr+Vivek+Choudhary+Bhopal" },
+  { label: "Call: +91 99269 23745", href: "tel:+919926923745" },
+  { label: "Practo Profile", href: "https://www.practo.com/bhopal/doctor/animesh-saxena-general-practitioner" },
+  { label: "Docindia Profile", href: "https://www.docindia.org/doctors/bhopal/dr-animesh-saxena-dermatology" },
+  { label: "Google Maps", href: "https://maps.google.com/?q=Rejuva+clinic+Dr+Animesh+Saxena+Bhopal" },
 ]
 
 export function Footer() {
@@ -31,10 +30,10 @@ export function Footer() {
     <footer>
       <div className="footer-grid">
         <div>
-          <div className="footer-logo">The Derma Clinic</div>
-          <div className="footer-sub">by Dr. Vivek Choudhary</div>
+          <div className="footer-logo">Rejuva Clinic</div>
+          <div className="footer-sub">by Dr. Animesh Saxena</div>
           <p className="footer-desc">
-            {"Bhopal's premier skin, hair, laser & cosmetic clinic providing advanced clinical and aesthetic treatments by expert dermatologists."}
+            {"Bhopal's trusted skin, hair & cosmetic clinic. Expert dermatology, hair transplant (FUE), PRP therapy, and personalized treatment by Dr. Animesh Saxena, MD Dermatologist."}
           </p>
         </div>
         <div className="fcol">
@@ -63,7 +62,7 @@ export function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2025 The Derma Clinic by Dr. Vivek Choudhary · Hoshangabad Road, Bhopal · All rights reserved.</p>
+        <p>© 2025 Rejuva Clinic by Dr. Animesh Saxena · Padmanabh Nagar, Bhopal · All rights reserved.</p>
       </div>
     </footer>
   )

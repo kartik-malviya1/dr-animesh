@@ -7,36 +7,42 @@ import Link from "next/link";
 const faqs = [
   {
     question:
-      "What are the consultation timings of Dr. Vivek Choudhary for an appointment?",
+      "What are the consultation timings at Rejuva Clinic?",
     answer:
-      "The consultation timings for Dr. Vivek Choudhary may vary depending on the location and type of consultation. You can check his availability on his appointment calendar for booking a slot.\n\nHis general consultation hours are:\n\nMon - Sat\n06:00 PM - 09:00 PM",
+      "Dr. Animesh Saxena consults at Rejuva Clinic, Padmanabh Nagar, Bhopal from Monday to Saturday between 3:00 PM – 7:00/8:00 PM. The clinic is closed on Sundays. Walk-ins are welcome, though an appointment is preferred for shorter wait times.",
   },
   {
-    question: "How many sessions will I need for my treatment?",
+    question: "What is the consultation fee for Dr. Animesh Saxena?",
     answer:
-      "The number of sessions depends on your specific condition, severity, and the treatment chosen. For example, laser hair removal typically requires 6–8 sessions, while acne treatments may need 4–6. Your doctor will provide a clear roadmap at your first consultation.",
+      "The consultation fee at Rejuva Clinic is approximately ₹400, making it one of the most accessible and affordable expert dermatology consultations in Bhopal. You can also book an appointment online via Practo or Justdial.",
   },
   {
-    question: "Are the procedures painful?",
+    question: "What conditions does Dr. Animesh Saxena treat?",
     answer:
-      "Most procedures involve minimal discomfort. Topical anaesthetics are used before laser and surgical procedures to ensure you're comfortable. Our team walks you through every step and addresses all concerns before beginning.",
+      "Dr. Saxena treats a wide range of skin and hair conditions including acne, acne scars, pigmentation, melasma, eczema, psoriasis, vitiligo, seborrheic dermatitis, dandruff, hair fall, hair thinning, skin allergies, rashes, warts, moles, and more. He also specialises in Dermatovenereology (skin & STD conditions).",
   },
   {
-    question: "Do you treat teenage acne?",
+    question: "Does Dr. Animesh Saxena perform hair transplant surgery?",
     answer:
-      "Absolutely. We treat patients of all ages for acne. Our approach for teenagers focuses on gentle, effective treatments and skincare education — avoiding harsh regimens that can worsen skin in the long term.",
+      "Yes. Dr. Animesh Saxena is an experienced Hair Transplant Specialist performing FUE (Follicular Unit Extraction) procedures at Rejuva Clinic. FUE is a minimally invasive method that delivers natural-looking, permanent results with minimal downtime and no linear scarring.",
   },
   {
-    question: "Do you treat vitiligo?",
+    question: "What are Dr. Animesh Saxena's qualifications?",
     answer:
-      "Yes. We offer vitiligo surgery and phototherapy as part of our vitiligo management programme. The appropriate treatment depends on extent, location, and stability — all assessed at consultation.",
+      "Dr. Animesh Saxena holds an MBBS from Barkatullah University, Bhopal (2011), and an MD in Dermatology, Venereology & Leprosy from Ruxmaniben Deepchand Gardi Medical College (R.D. Gardi), Ujjain (2015). He is registered with the Madhya Pradesh Medical Council (Reg. No. 13130) and has over 12 years of clinical experience.",
   },
   {
-    question: "How long do Botox and fillers last?",
+    question: "How many sessions will I need for my skin/hair treatment?",
     answer:
-      "Botox results typically last 4–6 months before a top-up session. Fillers can last 6 months to 2 years depending on the type and area. We use only premium-grade, clinically approved products.",
+      "The number of sessions depends on your specific condition and its severity. For example, PRP therapy for hair fall typically requires 3–6 monthly sessions, while acne scar treatments may need 4–6 sessions. Dr. Saxena provides a personalised treatment roadmap at your first consultation.",
+  },
+  {
+    question: "Where is Rejuva Clinic located?",
+    answer:
+      "Rejuva Clinic is located at C-6, First Floor, Padmanabh Nagar, above Maruti Showroom, opposite Ondoor Store, near Prabhat Square, Subhash Nagar, Bhopal, Madhya Pradesh. You can find directions on Google Maps by searching 'Rejuva Clinic Dr Animesh Saxena Bhopal'.",
   },
 ];
+
 
 export function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);

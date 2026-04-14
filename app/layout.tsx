@@ -18,30 +18,32 @@ const jost = Jost({
 
 export const metadata: Metadata = {
   title:
-    "The Derma Clinic | Dr. Vivek Choudhary — Best Dermatologist in Bhopal",
+    "Rejuva Clinic | Dr. Animesh Saxena — Best Dermatologist in Bhopal",
   description:
-    "Experience world-class clinical, aesthetic, and laser dermatology by Dr. Vivek Choudhary (MBBS, MD). Specializing in skin, hair, and cosmetic treatments in Bhopal.",
+    "Dr. Animesh Saxena is a leading dermatologist in Bhopal specializing in skin, hair, and cosmetic treatments. Expert in acne, pigmentation, hair fall & hair transplant. Visit Rejuva Clinic, Padmanabh Nagar, Bhopal.",
   keywords: [
     "Dermatologist in Bhopal",
     "Best Dermatologist in Bhopal",
     "Skin Specialist in Bhopal",
-    "The Derma Clinic",
-    "Dr. Vivek Choudhary",
-    "Laser Hair Removal Bhopal",
+    "Rejuva Clinic Bhopal",
+    "Dr. Animesh Saxena",
+    "Hair Transplant Bhopal",
     "Acne Treatment Bhopal",
-    "Hair Specialist Bhopal",
-    "Cosmetic Dermatology",
-    "Dermatologist near Aashima Mall",
+    "Hair Fall Treatment Bhopal",
+    "Dermatosurgeon Bhopal",
+    "Pigmentation Treatment Bhopal",
+    "Dermatologist Padmanabh Nagar Bhopal",
+    "PRP Therapy Bhopal",
   ],
   icons: {
     icon: "/logo.png",
   },
   openGraph: {
-    title: "The Derma Clinic | Dr. Vivek Choudhary — Dermatologist in Bhopal",
+    title: "Rejuva Clinic | Dr. Animesh Saxena — Dermatologist in Bhopal",
     description:
-      "Expert skin, hair, and laser treatments by Dr. Vivek Choudhary. Visit Bhopal's premier dermatology and cosmetic clinic.",
-    url: "https://the-derma-clinic.vercel.app", // Fallback URL
-    siteName: "The Derma Clinic",
+      "Expert skin, hair, and cosmetic treatments by Dr. Animesh Saxena (MBBS, MD Dermatology). Advanced hair transplant & skin clinic in Bhopal.",
+    url: "https://rejuva-clinic.vercel.app",
+    siteName: "Rejuva Clinic",
     images: [
       {
         url: "/logo.png",

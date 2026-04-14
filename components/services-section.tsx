@@ -5,59 +5,65 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 const services = [
   {
     num: "01",
-    title: "Skin Treatment",
+    title: "Skin Treatments",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-2szhk3reij.jpg",
+      "https://images.jdmagicbox.com/v2/comp/bhopal/d3/0755px755.x755.190704131014.b2d3/catalogue/dr-animesh-saxena-subhash-nagar-bhopal-dermatologists-6s2lebj6eo.jpg",
     description:
-      "Medical-grade care for acne, pigmentation, melasma, psoriasis, eczema, and complex dermatological conditions.",
-    chips: ["Acne", "Melasma", "Pigmentation", "Scars"],
+      "Expert treatment for acne, acne scars, pigmentation, melasma, skin allergies, eczema, psoriasis, dermatitis, and keloid management.",
+    chips: ["Acne & Scars", "Melasma", "Pigmentation", "Eczema"],
   },
   {
     num: "02",
-    title: "Hair Treatment",
-    image: "/hairt.png",
+    title: "Hair Treatments",
+    image:
+      "https://images.jdmagicbox.com/v2/comp/bhopal/d3/0755px755.x755.190704131014.b2d3/catalogue/dr-animesh-saxena-subhash-nagar-bhopal-dermatologists-3rwnrbu39k.jpg",
     description:
-      "Hair fall management, alopecia, PRP therapy, and surgical hair transplant using both FUE and FUT techniques.",
-    chips: ["PRP Therapy", "FUE", "FUT", "Alopecia"],
+      "Comprehensive hair fall management, dandruff & scalp disorders, PRP therapy, and advanced hair growth treatments.",
+    chips: ["Hair Fall", "PRP Therapy", "Dandruff", "Scalp Disorders"],
     delay: "reveal-d1",
   },
   {
     num: "03",
-    title: "Dermatosurgery",
+    title: "Hair Transplant",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-cp5b4t8zz1.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipNyhKIrIBC-pkSfxqaM6L9_pnnLvagEBNuv48Dj=s1360-w1360-h1020-rw",
     description:
-      "Precision surgical procedures — acne scar reduction, laser hair removal, wart & mole removal, keloid surgery.",
-    chips: ["Laser", "Wart Removal", "Keloid", "DPN"],
+      "Advanced FUE (Follicular Unit Extraction) hair transplant surgery delivering natural, permanent results for hair loss and baldness.",
+    chips: ["FUE Technique", "Permanent Results", "Natural Look", "Alopecia"],
     delay: "reveal-d2",
   },
   {
     num: "04",
-    title: "Anti-Ageing & Aesthetics",
+    title: "Alopecia Treatment",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-vxn01w97ya.jpg",
+      "https://lh3.googleusercontent.com/geougc/AF1QipMF7tXIP6YGR6rY3DxiMkfSzApy2-2k7pNATZJR=h305-no",
     description:
-      "Medical aesthetics including Botox, dermal fillers, and laser skin rejuvenation for natural, refreshed results.",
-    chips: ["Botox", "Fillers", "Laser Toning", "Rejuvenation"],
+      "Targeted treatment for all types of alopecia including androgenetic alopecia, alopecia areata, and traction alopecia using medical and procedural approaches.",
+    chips: [
+      "Androgenetic Alopecia",
+      "Alopecia Areata",
+      "Traction Alopecia",
+      "Hair Growth",
+    ],
   },
   {
     num: "05",
-    title: "Clinical Dermatology",
+    title: "Acne Treatement",
     image:
-      "https://images.jdmagicbox.com/v2/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-ro1fvku8tb.jpg",
+      "https://images.jdmagicbox.com/comp/bhopal/d3/0755px755.x755.190704131014.b2d3/catalogue/dr-animesh-saxena-subhash-nagar-bhopal-dermatologists-kzieh4yjaz.jpg",
     description:
-      "Comprehensive diagnosis and management of chronic skin conditions with an evidence-based medical approach.",
-    chips: ["Eczema", "Psoriasis", "Vitiligo", "Allergies"],
+      "Effective treatment for acne, acne scars, pigmentation, melasma, skin allergies, eczema, psoriasis, dermatitis, and keloid management.",
+    chips: ["Acne", "Acne Scars", "Pigmentation", "Melasma"],
     delay: "reveal-d1",
   },
   {
     num: "06",
-    title: "Lasers & Nail Treatment",
+    title: "Hair Treatment",
     image:
-      "https://images.jdmagicbox.com/comp/bhopal/l3/0755px755.x755.210721101032.i3l3/catalogue/the-derma-clinic-skin-hair-cosmetic-laser-centre-dr-vivek-choudhary-md-hoshangabad-road-bhopal-cosmetic-dealers-s1unf08slh.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipMd7Hbuxr-Z8B0UwowX7OuA50nEC_7q2ZCR4_-s=s1360-w1360-h1020-rw",
     description:
-      "Advanced laser platforms for resurfacing, pigmentation, skin tightening, and comprehensive nail disorder treatment.",
-    chips: ["CO₂ Laser", "Q-Switch", "Nail Disorders", "Vitiligo"],
+      "Comprehensive hair fall management, dandruff & scalp disorders, PRP therapy, and advanced hair growth treatments.",
+    chips: ["Hair Fall", "PRP Therapy", "Dandruff", "Scalp Disorders"],
     delay: "reveal-d2",
   },
 ];

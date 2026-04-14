@@ -5,26 +5,26 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    text: "I had a wonderful experience at the derma clinic from Dr. Vivek Choudhary. He is extremely careful and patient, taking time to understand your skin concerns and explaining every step of the treatment in detail. I never felt rushed and felt completely comfortable throughout the process. I underwent the yellow chemical peel, and the results were amazing my skin looks brighter, clearer, and more even-toned. The improvement was visible within a short time, and the healing was smooth under his guidance. Truly grateful for his expertise and genuine care. Highly recommended!",
-    initials: "AV",
-    name: "Abhishek Verma",
+    text: "Highly professional and well-equipped dermatology center! I came here for a consultation regarding my hair loss, and the doctor provided a thorough explanation of the treatment options. The clinic is spotless, and they maintain great hygiene practices with sterilization and fogging machines. I also tried their laser hair removal, and the results have been amazing! Highly recommend for anyone with skin or hair issues",
+    initials: "AY",
+    name: "Ayush Yadav",
   },
   {
-    text: 'I was struggled with severe acne for over 6 month and it was taking a serous toll on my confidence and skin health. I was referred to Dr. Vivek Chaudhary and he greeted me with a warm smile, and said "well fix this together". That meant the world.The staff amazing.... Receptionist remembered my name every visit. Nurse explained every step before applying treatment.Thank you so much Sir and staff, finally we fixed this together 😊 .Now 90% of my acne has been treated, and the remaining is under treatment. I\'m confident it will clear up soon too!',
-    initials: "NY",
-    name: "Nishu Yadav",
+    text: "I was suffering from psoriasis since 30 years. Ibwas quite disappointed with so many dermatologists, then i came to Dr Animesh Saxena. I not only got relief but could get good results. Now i am living my normal life. Dr Saxena prescribed minimal medicines with efficacious results. I strongly recommend him.",
+    initials: "AJ",
+    name: "Amit Jain",
     delay: "reveal-d1",
   },
   {
-    text: "I cannot express enough how thrilled I am with the results of my laser hair reduction! Honestly, it feels like a life-changing experience. From the very first session, I could see a dramatic difference – the stubborn hair that I struggled with for years started disappearing, and now my skin feels silky-smooth, flawless, and absolutely radiant.I would highly, highly recommend him to anyone who has ever felt insecure or frustrated because of unwanted hair. Don’t wait – this is hands down the best decision you can make for yourself.",
-    initials: "KS",
-    name: "Kratika Singh",
+    text: "Must say the best doctor for skin , and the way he talk to patient and the behaviour towards the patient and one more important thing staff of this clinic is very coperative and very polite in nature , recommend to all visit once if you guys suffering with any type of skin problem . Thanks sir.",
+    initials: "SJ",
+    name: "Sonal Jain",
     delay: "reveal-d2",
   },
   {
-    text: "Hey everyone,I am Tejeswarao and iam from Andhrapradesh,I have a complete baldness before consulting this hospital,I did my hair transplant in this hospital,I got a very very best results in decent time,I love the hospitality of the complete staff,I want to thankful to the great surgeon Vivek Choudhary sir,he is very polite,so many of friends suggested this hospital and finally I also experienced what my friends told.Dr.vivek Choudary sir is very friendly,I completely love his work,He loves his profession.Dr.vivek choudhary sir responds to my every calls and messages to my every single problem after and before my hair transplant surgery and He asks me to know how my hair growth is.Finally I experienced very very best memories in this year with this hospital because Dr choudhary sir completely changes my look.I surely suggest this hospital for every problem to your skin and hair.THANK YOU DR.VIVEK CHOUDHARY SIR 🙏🙏🙏",
-    initials: "TT",
-    name: "Tejeswarao Thandra",
+    text: "I consulted Dr. Animesh Saxena for a mole removal on my face and a small cyst on my back. He guided me honestly about the expectations and suggested the best treatment. I opted for laser mole removal, and I’m very happy with the results. It left no scar at all, and my skin looks fresh as if there was never anything there. His communication, guidance, and caring nature are excellent. I would definitely recommend Dr. Saxena to anyone looking for safe and effective dermatology treatment.",
+    initials: "SA",
+    name: "Sarfaraz Ansari",
     delay: "reveal-d3",
   },
 ];
