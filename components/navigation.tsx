@@ -22,7 +22,7 @@ export function Navigation({ menuOpen, toggleMenu }: NavigationProps) {
   return (
     <nav id="nav" className={scrolled ? "scrolled" : ""}>
       <Link href="#" className="nav-logo">
-        <span className="nav-logo-name">The Rejuva Clinic</span>
+        <span className="nav-logo-name">Rejuva Clinic</span>
         <span className="nav-logo-sub">by Dr. Animesh Saxena</span>
       </Link>
       <ul className="nav-links">
