@@ -72,7 +72,7 @@ export function FaqSection() {
                 "Still have something on your mind? We're happy to talk you through it before your consultation."
               }
             </p>
-            <Link href="tel:+91" className="btn-sm">
+            <Link href="tel:+919926923745" className="btn-sm">
               Call Us Directly
             </Link>
           </div>
